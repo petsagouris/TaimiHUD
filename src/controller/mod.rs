@@ -25,7 +25,7 @@ use {
     glam::f32::Vec3,
     relative_path::RelativePathBuf,
     std::{ffi::OsStr, path::PathBuf, sync::Arc, time::SystemTime},
-    strum_macros::Display,
+    strum::Display,
     taimi_meta::ui::gameplay::{GameplayState, GameplayTransition},
     taimi_sync::watched,
     tokio::{

@@ -2,7 +2,7 @@ use {
     crate::timer::BlishColour,
     relative_path::RelativePathBuf,
     serde::{Deserialize, Serialize},
-    strum_macros::Display,
+    strum::Display,
     tokio::time::{Duration, Instant},
 };
 
