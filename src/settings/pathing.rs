@@ -38,7 +38,7 @@ impl PathingSettings {
                 festival_filter.remove(festival.as_str());
             },
             Some(pref) => {
-                festival_filter.insert(festival.into(), pref);
+                festival_filter.insert(festival.to_string(), pref);
             },
         }
     }

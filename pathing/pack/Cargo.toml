@@ -38,6 +38,7 @@ fixup-fvd = []
 
 [dependencies]
 anyhow = "1"
+strum = { workspace = true }
 log = "0.4"
 # TODO? tokio = { version = "1", features = [ "fs", "macros" ] }
 glam = { workspace = true }
